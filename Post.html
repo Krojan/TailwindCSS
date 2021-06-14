@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+<title>MyBlogPost</title>
+<section class="px-5 py-5">
+    <nav class="lg:flex lg:justify-between items-center mb-20">
+        <div>
+            <a href="/">
+                <img src="./images/logo.svg" alt="laracasts.logo">
+            </a>
+        </div>
+
+        <div class="mt-5 lg:mt-0">
+            <a href="/" class="text-xs font-bold uppercase">home page</a>
+            <a href="#" class="bg-blue-500 ml-2 px-3 py-2 rounded-xl text-white uppercase">subscribe for updates</a>
+
+        </div>
+    </nav>
+
+    <article class="grid grid-cols-12 max-w-4xl mx-auto mt-10 mx-10">
+        <div class="col-span-4 mr-10 text-center">
+            <img src="./images/illustration-1.png" class="rounded-xl mb-3" alt="illustration">
+            <span class="text-sm text-gray-400">
+                    Published <time>1 day ago</time>
+            </span>
+
+            <div class="flex justify-center ">
+                <img src="images/lary-head.svg" alt="author-face">
+                <div class="mx-5">
+                    <h4 class="font-bold text-xl">Lary Laracore</h4>
+                    <p class="text-sm">Mascot at Laracasts</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-span-8 ">
+            <div class="flex justify-between -mt-10 mb-2">
+                <a href="#" class="hover:text-blue-400">Back to posts</a>
+                <div>
+                <a href="#" class="px-2 py-1 bg-transparent text-blue-500 border border-blue-500 text-xs text-center rounded-xl font-semibold">Techniques</a>
+                <a href="#" class=" px-2 py-1 bg-transparent text-red-500 border border-red-500 text-xs  text-center rounded-xl font-semibold">updates</a>
+            </div>
+            </div>
+
+            <h1 class="font-bold text-3xl mb-3">This is a big title and it will look great on two or even three lines. Wooohoo!</h1>
+            <p class="mb-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <p class="mb-2"> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+            <p class="mb-2">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim i</p>
+            <p class="mb-2">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim i</p>
+            <p class="mb-2">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim i</p>
+            <p class="mb-2">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim i</p>
+
+        </div>
+    </article>
+
+    <footer class="text-center mt-10 bg-gray-100 border border-opacity-5 rounded-xl mb-5">
+        <div class="py-5">
+            <img src="./images/lary-newsletter-icon.png" alt="larys newsletter icon"  class="mx-auto" width="150">
+            <h2 class="text-3xl">Stay in touch with the latest update</h2>
+            <p class="py-5">Promise to keep the inbox clean. No bugs.</p>
+        </div>
+
+        <div>
+            <div class="inline-flex mb-5 rounded-xl bg-gray-200">
+                <form action="#" method="post" class="p-5 lg:flex item-center">
+                    <label> <img src="./images/mailbox-icon.svg" alt="mailbox icon" class='p-2'></label>
+                    <input type="text" placeholder='Your email address' class="bg-transparent border border-opacity-15 rounded-xl">
+                    <button type="submit" class="bg-blue-500 px-3 rounded-xl text-white uppercase mx-0">Subscribe</button>
+                </form>
+            </div>
+        </div>
+
+    </footer>
+</section>
+
+</html>
